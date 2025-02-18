@@ -6,7 +6,7 @@ const CreatePage = () => {
     <div className="min-h-screen flex flex-col bg-primary-light">
       <Header isLoggedIn={true} />
       <main className="flex-1 container mx-auto px-4 py-12">
-        <div className="max-w-2xl mx-auto">
+        <div className="max-w-2xl pt-10 mt-20 mx-auto">
           <h1 className="font-playfair text-primary text-3xl mb-8 text-center">
             Start Your Love Message
           </h1>
@@ -17,10 +17,10 @@ const CreatePage = () => {
           <div className="flex gap-4">
             <input
               type="text"
-              placeholder="Enter the keyword"
+              placeholder="Enter the reward"
               className="input-field"
             />
-            <button className="btn-primary whitespace-nowrap px-6">
+            <button className="btn-primary whitespace-nowrap rounded-md px-6">
               Generate Poem
             </button>
           </div>
