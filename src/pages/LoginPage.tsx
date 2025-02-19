@@ -1,5 +1,6 @@
 import Header from '../components/Header';
 import Footer from '../components/Footer';
+import { DotLottieReact } from '@lottiefiles/dotlottie-react';
 
 const LoginPage = () => {
   return (
@@ -10,13 +11,13 @@ const LoginPage = () => {
           <h1 className="font-playfair text-primary text-3xl mb-2">
             Login To Love Cipher
           </h1>
-          <p className="text-gray-600 mb-8">Continue Your Poetry Journey</p>
+          <p className="text-gray-600">Continue Your Poetry Journey</p>
           
-          <img
-            src="/love-letter-icon.png"
-            alt="Love letter icon"
-            className="w-24 h-24 mx-auto mb-8"
-          />
+          <DotLottieReact
+      src="https://lottie.host/7a3c0fcc-8293-4213-a4ea-7dc82604ec6d/YbqYNoEtxk.lottie"
+      loop
+      autoplay
+    />
           
           <form className="flex flex-col gap-4">
             <input
