@@ -12,5 +12,9 @@ export default defineConfig({
       "Cross-Origin-Embedder-Policy": "require-corp",
       "Cross-Origin-Opener-Policy": "same-origin"
     }
+  },
+  base: '/', // This is optional if deploying to the root domain
+  build: {
+    outDir: 'dist'
   }
 });
